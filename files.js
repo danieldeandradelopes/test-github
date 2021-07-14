@@ -1,4 +1,8 @@
 
 function readFile(file) {
-  return file;
+  if (file.length > 0) {
+    return file;
+  }
+
+  return false;
 }
